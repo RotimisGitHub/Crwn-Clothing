@@ -1,0 +1,20 @@
+.signInButtons {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.submitSignInButton {
+    background-color: #1d79ca;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.submitSignInButton:hover {
+    cursor: pointer;
+    background-color: #014380;
+}

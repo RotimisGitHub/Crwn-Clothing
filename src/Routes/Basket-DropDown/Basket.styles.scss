@@ -1,0 +1,52 @@
+.basket-dropdown {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 400px;
+  border: 3px solid black;
+
+  .basket-items {
+    display: flex;
+    margin: 12.5px;
+    height: 250px;
+    overflow-y: scroll;
+    flex-direction: column;
+
+  }
+}
+
+.item-div {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.checkout-action-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.checkout-action-button {
+
+  width: 80%;
+  bottom: 0;
+  padding: 10px;
+  margin-left: 5%;
+  margin-bottom: 10%;
+  background-color: black;
+  color: white;
+  border: 3px solid black;
+}
+
+.checkout-action-button:hover{
+  cursor: pointer;
+   background-color: white;
+   color: black;
+ }
+

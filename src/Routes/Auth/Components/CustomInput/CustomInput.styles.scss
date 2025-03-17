@@ -1,0 +1,23 @@
+.formField, .formField:empty {
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 30px;
+
+
+}
+
+.inputDivider {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: 20px 0;
+
+  label {
+
+    width: 100px;
+
+  }
+
+}

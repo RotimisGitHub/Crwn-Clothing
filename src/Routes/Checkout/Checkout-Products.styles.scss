@@ -1,0 +1,23 @@
+.checkout-row:hover {
+  background-color: #abc6c6;
+}
+
+.quantity-alternate {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5px;
+
+  .arrows:hover{
+    cursor: pointer;
+  }
+}
+
+.deleteItemButton {
+  color: red;
+
+}
+
+.deleteItemButton:hover {
+  cursor: pointer;
+}

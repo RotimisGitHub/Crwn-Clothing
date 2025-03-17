@@ -1,0 +1,9 @@
+.individual-items-div {
+  display: grid;
+  grid-template-columns: 1fr 2fr 0.5fr 0.5fr;
+  gap: 15px;
+
+  img {
+    border: 2px solid black;
+  }
+}
